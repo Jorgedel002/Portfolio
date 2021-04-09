@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend', sans-serif;
+}
+
+.main__portfolio{
+    background-image: url(/img/pexels-pavel-danilyuk-5496464.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+i{
+    color: white;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    z-index: 100;
+}
+
+.jorge{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    position: relative;
+    top: 130px;
+}
+
+.frase__introduccion{
+    color: white;
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    top: 180px;
+}
+
+.active{
+    transform: translate(-600px);
+}
+
+.opacity{
+    background-color: rgba(0,0,0,0.5);
+    transition: all .5s ease;
+}
+
+.menu__options{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(42, 42, 42);
+    box-shadow: 2px 0px 5px 2px rgb(66, 66, 66);
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    z-index: 10;
+    transition: all .5s ease;
+}
+
+.unorderlist li{
+    list-style: none;
+    color: white;
+    padding-top: 20px;
+    text-align: center;
+    height: 50px;
+    width: 400px;
+    border-bottom: 1px solid white;
+}
+
+.unorderlist li:hover{
+    font-size: 25px;
+    transition: all .5s;
+    background-color: white;
+    color: black;
+}
